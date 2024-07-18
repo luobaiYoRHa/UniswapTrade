@@ -1,27 +1,32 @@
-## Features
+# Decentralized Token Swap Application
 
-- **Token Swapping**: Users can swap tokens using the Uniswap protocol on the Base chain.
-- **Wallet Connection**: Integration with RainbowKit allows users to connect their wallets easily.
-- **Responsive Design**: The application is designed to be responsive and user-friendly.
+This project is a decentralized application (dApp) built using React, RainbowKit, Wagmi, and Uniswap SDK. The application allows users to swap tokens on the Base chain using a user-friendly interface. It includes features such as token selection, price fetching, and transaction management.
 
-## Components
+### Features
 
-### App
+- **Token Swap**: Users can swap tokens on the Base chain with real-time price fetching and slippage settings.
+- **Token Management**: Users can select and switch between different tokens.
+- **Wallet Integration**: Seamless wallet connection and transaction management using RainbowKit and Wagmi.
+- **Responsive Design**: User-friendly interface that works across different devices.
 
-The main component that sets up routing and renders the `Header` and main content.
+### Technologies Used
 
-### Header
+- React
+- RainbowKit
+- Wagmi
+- Uniswap SDK
+- Ethers.js
+- Ant Design
+- Infura
 
-Contains the navigation links and the wallet connect button.
+### Getting Started
 
-### Swap
+To get a local copy up and running, follow these simple steps:
 
-The main component for swapping tokens. It includes functionalities like fetching token prices, approving tokens, and executing swaps.
+#### Prerequisites
 
-### Tokens
+- Node.js
+- npm
 
-A simple component that can be expanded to display a list of tokens or other related information.
-
-## Configuration
-
-### RainbowKit and Wagmi
+### How to Run
+npm start
